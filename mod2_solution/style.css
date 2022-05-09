@@ -27,7 +27,6 @@ h1 {
 	background-color: grey;
 	border: 2px solid black;
 	margin: 10px; /*inbetween boxes*/
-	position: relative;
 	overflow: auto;
 	height: 170px;
 	position: absolute;
