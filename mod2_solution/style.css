@@ -16,22 +16,10 @@ h1 {
 }
 
 .box{ 
-	background-color: grey;
-<<<<<<< HEAD
-	/*padding: 10px 4px 5px 5px;*/
-	border: 2px solid black;
-	margin: 10px; /*inbetween bigboxes*/
-	/*float: left;*/
-	position: relative;
-	/*width: 100%;*/
-	overflow: auto;
-	/*position: absolute; makes Sushi wider*/ 
-=======
 	border: 2px solid black;
 	margin: 10px; /*inbetween bigboxes*/
 	position: relative;
 	overflow: auto;
->>>>>>> 2d13b88dafd98d3bb1c77cc2f1cfaac9b6e49c6e
 }
 
 .container {
