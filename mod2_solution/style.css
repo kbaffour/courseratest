@@ -24,17 +24,16 @@ h1 {
 	height: 170px;
 }
 
-.box3 { 
-	background-color: grey;
-	border: 2px solid black;
-	margin: 10px; /* inbetween boxes */
-	/* float: left; */
-	position: relative;
-	height: 170px;
-} 
-
 
 .container {
+padding: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.container3 {
 padding: 10px;
 margin-left: auto;
 margin-right: auto;
@@ -114,9 +113,10 @@ p {
     width: 50%;
   }
 
-  .col-md-12, .box3 {
+  .col-md-12, .container3 {
     width: 100%;
   }
+
 }
 
 /*********** Mobile view ***********/
