@@ -19,9 +19,7 @@ h1 {
 	background-color: grey;
 	border: 2px solid black;
 	margin: 10px; /*inbetween boxes*/
-	/*float: left;*/
 	position: relative;
-	height: 170px;
 }
 
 
