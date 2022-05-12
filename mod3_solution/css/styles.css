@@ -1,0 +1,159 @@
+body {
+	background-color: white;
+	font-family: Comic sans-serif, Arial, sans-serif;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	font-weight: lighter;
+}
+
+h3 {
+	margin: 5px;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-weight: lighter;
+}
+
+.box {
+	background-color: grey;
+	margin: 10px;
+}
+
+.container {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	padding: 5px;
+}
+
+.row {
+	width: 100%;
+}
+
+#text {
+	font-size: 10px;
+	font color: black;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	background-color: grey;
+}
+
+.navbar-header {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-default {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	font color: black;
+	text-align: center;
+}
+
+.collapse {
+	background-color: ivory;
+		text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: lightgrey;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 5px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-toggle .collapse #bs-example-navbar-collapse-1 {
+	color: black;
+}
+
+/* Remove hidden but not gone-
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+    visibility:hidden;
+}
+*/
+
+
+
+/*********** Desktop view ***********/
+@media (min-width: 992px) {
+
+.col-md-4 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  #bs-example-navbar-collapse-1 {
+  	visibility: hidden;
+  }
+}
+
+
+
+/*********** Tablet view ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-sm-6 {
+      float: left;
+  }
+  .col-sm-6 {
+    width: 33.33%;
+  }
+
+  #bs-example-navbar-collapse-1 {
+  	visibility: hidden;
+  }
+}
+
+
+/*********** Mobile view ***********/
+@media (max-width: 767px) {
+ .col-xs-12 {
+    float: left;
+    text-align: center;
+
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
