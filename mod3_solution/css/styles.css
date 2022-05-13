@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: white;
 	font-family: Comic sans-serif, Arial, sans-serif;
@@ -221,3 +222,228 @@ p {
   }
 
 }
+=======
+body {
+	background-color: white;
+	font-family: Comic sans-serif, Arial, sans-serif;
+}
+
+.text-center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.dropdown .text-center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+	padding: 2px;
+	font-size: 14px;
+}
+
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.box .text-center {
+	margin: 5px;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+p {
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	padding: 5px;
+}
+
+.box {
+	background-color: grey;
+	margin: 10px;
+}
+
+.container {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.row {
+	width: 100%;
+}
+
+#text {
+	font-size: 10px;
+	font color: black;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+	background-color: grey;
+	float: left;
+}
+
+.navbar-header {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-default {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	font color: black;
+	text-align: center;
+}
+
+.collapse {
+	background-color: #00bcd4;
+		text-align: center;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border-color:lightgrey;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+	display: block;
+   background-color: lightgrey;
+}
+
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 5px;
+    border-radius: 1px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-toggle .collapse #bs-example-navbar-collapse-1 {
+	color: black;
+}
+
+.navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
+    color: grey;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a {
+    color: black;
+    background-color: transparent;
+    display: block;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+}
+
+/*********** Desktop view ***********/
+@media (min-width: 992px) {
+
+.col-md-4 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 100%;
+
+  }
+
+  #bs-example-navbar-collapse-1 {
+  	visibility: hidden;
+  }
+
+ .navbar-header{
+	margin-left: 15px;
+}
+
+.box {
+  	margin: 0px 50px 0px 30px;
+  }
+}
+
+
+/*********** Tablet view ***********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-sm-6 {
+      float: left;
+  }
+  .col-sm-6 {
+    width: 100%;
+  }
+
+  #bs-example-navbar-collapse-1 {
+  	visibility: hidden;
+  }
+
+.navbar-header{
+	margin-left: 15px;
+}
+
+.box {
+  	margin: 0px 50px 0px 30px;
+  }
+
+}
+
+
+/*********** Mobile view ***********/
+@media (max-width: 767px) {
+ .col-xs-12 {
+    float: left;
+    text-align: center;
+
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  .navbar {
+  	width: 100%;
+  }
+ 
+  .box {
+  	margin: 0px 70px 0px 50px;
+  }
+
+  #bs-example-navbar-collapse-1 {
+  	visibility: visible;
+  	width: 110%;
+  }
+
+}
+>>>>>>> 9dfa7e5199ba0ecef48ce8032a16c7a3c6ba6d8a
