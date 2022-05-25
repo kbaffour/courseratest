@@ -58,9 +58,15 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
  // if (firstLetter === 'j') {
+<<<<<<< HEAD
   //  byeSpeaker.speak(names[i]);
   //} else {
    // helloSpeaker.speak(names[i]);
+=======
+  //  byeSpeaker.speak(names[i]);  console.log(speakWord + byeSpeaker.name); 
+  //} else {
+   // helloSpeaker.speak(names[i]);  console.log(speakWord + helloSpeaker.name); 
+>>>>>>> c655d07cb4386705fa91ff2fb894feb02d1e470c
   //}
 //}
 
