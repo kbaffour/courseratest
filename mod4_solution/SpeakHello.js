@@ -8,7 +8,3 @@ helloSpeaker.sayHello = function () {
 name.helloSpeaker = helloSpeaker 
 
 })(name); 
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b45d0f9b088b7e144b56a6c4bee5005d88a4335
