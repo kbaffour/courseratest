@@ -6,3 +6,4 @@ byeSpeaker.sayGoodBye = function () {
 console.log(speakWord + byeSpeaker.name); 
 } 
 name.byeSpeaker = byeSpeaker 
+})(name); 
