@@ -10,4 +10,8 @@ for (var i = 0; i < names.length; i++) {
   } else {
     console.log ("Hello "+ names[i]);
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 39f1ea670e76ad9f1b1e373d3d75929ab9f1b12e
