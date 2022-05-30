@@ -6,3 +6,8 @@ helloSpeaker.sayHello = function () {
  console.log(speakWord + helloSpeaker.name); 
 } 
 name.helloSpeaker = helloSpeaker 
+
+})(name); 
+
+
+
