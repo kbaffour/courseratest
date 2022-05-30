@@ -11,9 +11,3 @@ for (var i = 0; i < names.length; i++) {
     console.log ("Hello "+ names[i]);
   }
 }
-
-<<<<<<< HEAD
-})();
-=======
-})();
->>>>>>> e406605b2bdec9961772a673c2d942e0f884d081
