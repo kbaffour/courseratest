@@ -80,8 +80,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // *** start ***
 // On first load, show home view
-
-
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
@@ -104,11 +102,9 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
-<<<<<<< HEAD
+
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
-=======
-      var chosenCategoryShortName = chooseRandomCategory (categories).short_name;
->>>>>>> ecae770c1cabcf9a0390fb765205938e75a40a8f
+      chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
@@ -123,26 +119,16 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-<<<<<<< HEAD
-      chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
 
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-      
+      var homeHtmlToInsertIntoMainPage = insertProperty (homeHtml, "randomCategoryShortName", chosenCategoryShortName);
 
-=======
-       chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
->>>>>>> ecae770c1cabcf9a0390fb765205938e75a40a8f
 
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
-      
-       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
-      insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
-
+      insertHtml ("#main-content", homeHtmlToInsertIntoMainPage);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
